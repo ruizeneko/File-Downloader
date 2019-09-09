@@ -32,8 +32,8 @@ class Directory_creator():
 def folder_creator(direction):
     direction.mkdir(exist_ok = False)
 
-
-where_data_is = pt.home() / "Desktop/rech.txt"
+name_of_file = "THE NAME OF YOUR FILE HERE"
+where_data_is = pt.home() / name_of_file
 files_txt = open(where_data_is, mode = "r", encoding = "utf-8")
 
 already_created = list()
